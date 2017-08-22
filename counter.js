@@ -14,3 +14,5 @@ function starCounter() {
 
 	myLoop();
 };
+
+module.exports = starCounter();
