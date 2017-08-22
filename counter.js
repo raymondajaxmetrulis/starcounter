@@ -1,9 +1,11 @@
+var colors = require('./node_modules/colors/lib/index');
+
 function starCounter() {
 	var asterisks = 10;
 
 	function myLoop () {
 	    setTimeout(function () { 
-	        var asterisk = "*";
+	        var asterisk = "*".green;
 	         console.log(asterisk.repeat(asterisks));
 	         asterisks--;
 	         if (asterisks > 0) {
